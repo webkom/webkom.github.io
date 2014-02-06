@@ -1,0 +1,11 @@
+name: hackr.it
+permalink: /:title
+pygments: true
+lsi: false
+exclude:
+  - Readme.md
+  - CNAME
+  - Makefile
+  - css/style.styl
+  - .gitignore
+  - node_modules
