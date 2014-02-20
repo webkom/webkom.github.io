@@ -1,11 +1,14 @@
 ---
 layout: default
-title:
+title: Webkomblogg
 ---
 
 {% for post in site.posts %}
 <article>
-  <h2><a href="{{post.url}}">{{post.title}} <span>&rarr;</span></a></h2>
+  <header>
+    <h2><a href="{{post.url}}">{{post.title}}</a></h2>
+    <p>Skrevet av {{post.author}} <time>{{post.date}}</time></p>
+  </header>
 
   {{ post.content }}
 </article>
