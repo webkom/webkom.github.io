@@ -13,7 +13,7 @@ global-reset()
 
 html
   border-top 10px solid #272525
-  background #ddd
+  background #dedede
 
 body
   font-family "Open Sans", serif
@@ -32,6 +32,7 @@ body
     background #fff
     padding 40px
     border-radius 5px
+    border-top 3px solid #ccc
 
 footer
   font-size 14px
@@ -49,7 +50,8 @@ h1
   background url('/images/logo.png') left 26px no-repeat
   background-size 32px
   text-indent 45px
-  font-weight 700
+  color #555
+  text-shadow 0 0 2px #fff
 
   a
     text-decoration none
@@ -65,6 +67,11 @@ h2
 
     &:hover
       color #B11B11
+
+h3
+  font-weight 700
+  font-size 20px
+  margin-top 10px
 
 article
   > p
@@ -104,9 +111,13 @@ pre
       padding 20px
       text-align center
 
-
     > section
       padding 20px
+
+  h1
+    text-indent -99999px
+    background url('/images/logo.png') center center no-repeat
+    background-size 64px
 
   pre
     font-size 12px

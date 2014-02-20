@@ -99,7 +99,7 @@ a img {
 }
 html {
   border-top: 10px solid #272525;
-  background: #ddd;
+  background: #dedede;
 }
 body {
   font-family: "Open Sans", serif;
@@ -119,6 +119,7 @@ body > section {
   padding: 40px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
+  border-top: 3px solid #ccc;
 }
 footer {
   font-size: 14px;
@@ -138,7 +139,8 @@ h1 {
   -moz-background-size: 32px;
   background-size: 32px;
   text-indent: 45px;
-  font-weight: 700;
+  color: #555;
+  text-shadow: 0 0 2px #fff;
 }
 h1 a {
   text-decoration: none;
@@ -154,6 +156,11 @@ h2 a {
 }
 h2 a:hover {
   color: #b11b11;
+}
+h3 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 10px;
 }
 article > p {
   margin-bottom: 15px;
@@ -193,6 +200,13 @@ pre {
   }
   body > section {
     padding: 20px;
+  }
+  h1 {
+    text-indent: -99999px;
+    background: url("/images/logo.png") center center no-repeat;
+    -webkit-background-size: 64px;
+    -moz-background-size: 64px;
+    background-size: 64px;
   }
   pre {
     font-size: 12px;
