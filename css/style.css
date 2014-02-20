@@ -1,3 +1,5 @@
+@import url("http://fonts.googleapis.com/css?family=Open\+Sans:400italic,400,700");
+@import url("/css/pygments.css");
 html,
 body,
 div,
@@ -90,20 +92,115 @@ a img {
   border: none;
 }
 * {
-  margin: 0;
-  padding: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
 }
 html {
-  border-top: 10px dashed #f1ede9;
+  border-top: 10px solid #272525;
+  background: #ddd;
 }
 body {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Open Sans", serif;
   line-height: 2;
-  color: #666;
+  color: #444;
   font-size: 18px;
-  background: #fefefe;
+  max-width: 800px;
+  margin: 0 auto;
+  background: transparent;
+}
+body > header {
+  background: transparent;
+  padding: 20px 40px;
+}
+body > section {
+  background: #fff;
+  padding: 40px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+footer {
+  font-size: 14px;
+  padding: 20px 40px;
+  text-align: right;
+}
+a {
+  color: #b11b11;
+}
+a:hover {
+  color: #000;
+}
+h1 {
+  font-size: 40px;
+  background: url("/images/logo.png") left 26px no-repeat;
+  -webkit-background-size: 32px;
+  -moz-background-size: 32px;
+  background-size: 32px;
+  text-indent: 45px;
+  font-weight: 700;
+}
+h1 a {
+  text-decoration: none;
+  color: #333;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+h2 a {
+  color: #2c3e50;
+  text-decoration: none;
+}
+h2 a:hover {
+  color: #b11b11;
+}
+article > p {
+  margin-bottom: 15px;
+}
+.author {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #999;
+  text-align: right;
+  border-bottom: 1px dotted #ddd;
+  margin-bottom: 20px;
+}
+hr {
+  border: 0;
+}
+pre {
+  font-family: Monaco, monospace;
+  font-size: 16px;
+  background: #ecf0f1;
+  padding: 10px 20px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+  font-weight: 400;
+  max-height: 400px;
+  overflow: scroll;
+  line-height: 1.6;
+}
+@media (max-width: 480px) {
+  body {
+    font-size: 16px;
+  }
+  body > header {
+    padding: 20px;
+    text-align: center;
+  }
+  body > section {
+    padding: 20px;
+  }
+  pre {
+    font-size: 12px;
+  }
+  .author {
+    text-align: left;
+  }
+  footer {
+    text-align: center;
+  }
 }

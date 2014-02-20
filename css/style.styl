@@ -1,20 +1,119 @@
+@import url("http://fonts.googleapis.com/css?family=Open\+Sans:400italic,400,700")
 @import "nib/reset"
 @import "nib/vendor"
+
+
+@import url("/css/pygments.css")
 
 global-reset()
 
 *
-  margin 0
-  padding 0
   box-sizing border-box
   font-smoothing antialiased
 
 html
-  border-top 10px dashed #F1EDE9
+  border-top 10px solid #272525
+  background #ddd
 
 body
-  font-family 'Helvetica Neue', sans-serif
+  font-family "Open Sans", serif
   line-height 2
-  color #666
+  color #444
   font-size 18px
-  background #fefefe
+  max-width 800px
+  margin 0 auto
+  background transparent
+
+  > header
+    background transparent
+    padding 20px 40px
+
+  > section
+    background #fff
+    padding 40px
+    border-radius 5px
+
+footer
+  font-size 14px
+  padding 20px 40px
+  text-align right
+
+a
+  color #B11B11
+
+  &:hover
+    color black
+
+h1
+  font-size 40px
+  background url('/images/logo.png') left 26px no-repeat
+  background-size 32px
+  text-indent 45px
+  font-weight 700
+
+  a
+    text-decoration none
+    color #333
+
+h2
+  font-size 24px
+  font-weight 700
+
+  a
+    color #2c3e50
+    text-decoration none
+
+    &:hover
+      color #B11B11
+
+article
+  > p
+    margin-bottom 15px
+
+.author
+  font-size 14px
+  text-transform uppercase
+  font-weight 700
+  color #999
+  text-align right
+  border-bottom 1px dotted #ddd
+  margin-bottom 20px
+
+hr
+  border 0
+
+pre
+  font-family Monaco, monospace
+  font-size 16px
+  background #ecf0f1
+  padding 10px 20px
+  border-radius 10px
+  margin 10px 0
+  font-weight 400
+  max-height 400px
+  overflow scroll
+  line-height 1.6
+
+
+@media (max-width: 480px)
+
+  body
+    font-size 16px
+
+    > header
+      padding 20px
+      text-align center
+
+
+    > section
+      padding 20px
+
+  pre
+    font-size 12px
+
+  .author
+    text-align left
+
+  footer
+    text-align center
+
