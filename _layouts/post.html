@@ -4,7 +4,7 @@ layout: default
 <article>
   <header>
     <h2>{{page.title}}</h2>
-    <p class="author">Skrevet av {{page.author}} <time>{{page.date|date: "%d.%m.%Y"}}</time></p>
+    <p class="author">Skrevet av <a href="https://github.com/{{page.author}}">{{page.author}}</a> <time>{{page.date|date: "%d.%m.%Y"}}</time></p>
   </header>
   {{content}}
 </article>
