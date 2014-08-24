@@ -1,6 +1,6 @@
 name: webkom
 permalink: /:title
-pygments: true
+highlighter: pygments
 lsi: false
 exclude:
   - Readme.md
