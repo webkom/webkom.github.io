@@ -121,6 +121,9 @@ body > section {
   border-radius: 5px;
   border-top: 3px solid #ccc;
 }
+body > section img {
+  max-width: 100%;
+}
 footer {
   font-size: 14px;
   padding: 20px 40px;
