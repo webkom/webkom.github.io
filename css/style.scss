@@ -1,3 +1,7 @@
+---
+# SASS
+---
+
 @import url("http://fonts.googleapis.com/css?family=Open\+Sans:400italic,400,700");
 @import url("/css/pygments.css");
 html,
@@ -74,8 +78,7 @@ body {
 }
 ol,
 ul {
-    /*list-style: none;*/
-    padding-left: 1.5em;
+  list-style: none;
 }
 table {
   border-collapse: separate;
@@ -103,21 +106,39 @@ html {
   background: #dedede;
 }
 body {
-  font-family: "Open Sans", serif;
+  font-family: "Open Sans", "Helvetica Neue", serif;
   line-height: 2;
   color: #444;
-  font-size: 18px;
+  font-size: 16px;
   max-width: 800px;
   margin: 0 auto;
   background: transparent;
 }
 body > header {
   background: transparent;
-  padding: 20px 40px;
+  padding: 20px 60px;
+
+  h1 {
+    font-size: 40px;
+    font-family: Monaco, Menlo, monospace;
+    background: url("/images/logo.png") left 26px no-repeat;
+    -webkit-background-size: 32px;
+    -moz-background-size: 32px;
+    background-size: 32px;
+    text-indent: 45px;
+    color: #555;
+    text-shadow: 2px 0 0 #fff;
+    font-weight: 700;
+    text-align: center;
+  }
+  h1 a {
+    text-decoration: none;
+    color: #333;
+  }
 }
 body > section {
   background: #fff;
-  padding: 40px;
+  padding: 60px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
   border-top: 3px solid #ccc;
@@ -127,7 +148,7 @@ body > section img {
 }
 footer {
   font-size: 14px;
-  padding: 20px 40px;
+  padding: 20px 50px;
   text-align: right;
 }
 a {
@@ -136,39 +157,34 @@ a {
 a:hover {
   color: #000;
 }
-h1 {
-  font-size: 40px;
-  background: url("/images/logo.png") left 26px no-repeat;
-  -webkit-background-size: 32px;
-  -moz-background-size: 32px;
-  background-size: 32px;
-  text-indent: 45px;
-  color: #555;
-  text-shadow: 0 0 2px #fff;
+
+article {
+  margin-bottom: 60px;
+  border-bottom: 3px dashed #ddd;
+
+  h1 {
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  h1 a {
+    color: #2c3e50;
+    text-decoration: none;
+  }
+
+  h1 a:hover {
+    color: #b11b11;
+  }
+
+  h2 {
+    font-weight: 700;
+  }
 }
-h1 a {
-  text-decoration: none;
-  color: #333;
-}
-h2 {
-  font-size: 24px;
-  font-weight: 700;
-}
-h2 a {
-  color: #2c3e50;
-  text-decoration: none;
-}
-h2 a:hover {
-  color: #b11b11;
-}
-h3 {
-  font-weight: 700;
-  font-size: 20px;
-  margin-top: 10px;
-}
+
 article > p {
   margin-bottom: 15px;
 }
+
 .author {
   font-size: 14px;
   text-transform: uppercase;
@@ -215,7 +231,7 @@ pre code {
   body > section {
     padding: 20px;
   }
-  h1 {
+  body > header > h1 {
     text-indent: -99999px;
     background: url("/images/logo.png") center center no-repeat;
     -webkit-background-size: 64px;
