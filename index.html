@@ -7,10 +7,12 @@ title: Webkomblogg
 <article>
   <header>
     <h1><a href="{{post.url}}">{{post.title}}</a></h1>
-    <p class="author">Skrevet av <a href="https://github.com/{{post.author}}">{{post.author}}</a> <time>{{post.date|date: "%d.%m.%Y"}}</time></p>
+    <p class="author"><a href="https://github.com/{{post.author}}">{{post.author}}</a> @ <time>{{post.date|date: "%d.%m.%Y"}}</time></p>
   </header>
 
-  {{ post.content }}
+  {{ post.excerpt }}
+
+  <a href="{{post.url}}" class="read-more">Les mer &rarr;</a>
 </article>
 <hr>
 {% endfor %}
