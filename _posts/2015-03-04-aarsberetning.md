@@ -60,4 +60,4 @@ Da antallet tjenester Webkom drifter har gått opp det foregående året krever 
 Forrige høst mistet vi lagringen vi hadde på vår eneste Windows-server. Dette var et resultat av glipp i rutiner og dårlig erfaringsoverføring. Selv om vi også ved dette tidspunktet hadde solide rutiner på backup av så å si alle tjenester, vel å merke på de resterende Linux-serverne, har dette blitt betraktelig forbedret i løpet av det siste halvåret. I tillegg til å sette opp ekstern lagring ut av huset, tas det backup en gang i døgnet til våre lokale servere, lagret med RAID 5. Vi bruker
 <a href="https://github.com/frecar/ossus">ossus</a> til å ta ekstern backup.
 
-Vi håper å se deg på <a href="https://github.com/webkom">Slack](webkom.abakus.no/slack) i løpet av 2015. Nye prosjekter kommer på [GitHub</a>, følg gjerne med!
+Vi håper å se deg på [Slack](webkom.abakus.no/slack) i løpet av 2015. Nye prosjekter kommer på [GitHub](https://github.com/webkom), følg gjerne med!
