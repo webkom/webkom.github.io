@@ -5,25 +5,25 @@ author: ekmartin
 
 ---
 
-2015 har vært et interessant år for Webkom. Vi har hatt våre oppturerer og nedturer, selv om det definitivt har vært flest av førstnevnte. Nye prosjekter har blitt startet og gamle har blitt vedlikeholdt. Nettopp det å starte nye prosjekter er nok også noe av det vi har blitt enda flinkere på i løpet av året som har gått. Nesten all ny kode som skrives i Webkom blir åpen kildekode før eller senere, gjerne med en tilhørende solid testdekning. Dette vil vi fortsette med i løpet av 2015, og da mens vi skriver ny Abakus.no. Her har du en kort oppsummering av noe av det vi har drevet med siden forrige generalforsamling.
+2015 har vært et interessant år for Webkom. Vi har hatt våre oppturer og nedturer, selv om det definitivt har vært flest av førstnevnte. Nye prosjekter har blitt startet og gamle har blitt vedlikeholdt. Nettopp det å starte nye prosjekter er nok også noe av det vi har blitt enda flinkere på i løpet av året som har gått. Nesten all ny kode som skrives i Webkom blir åpen kildekode før eller senere, gjerne med en tilhørende solid testdekning. Dette vil vi fortsette med i løpet av 2015, og da mens vi skriver ny Abakus.no. Her har du en kort oppsummering av noe av det vi har drevet med siden forrige generalforsamling.
 
 ## Blogg
-Bloggen du leser nå prøver vi å holde oppdatert med info om nye prosjekter og erfaringer vi opparbeider oss i løpet av vårt komitéarbeid. Vi vil på den måten prøve å oppnå at flere skal få nytte av det vi har lært. Et av målene våre er at alle i Webkom skal skrive minst én post i løpet av et skoleår.
+Bloggen du leser nå prøver vi å holde oppdatert med info om nye prosjekter og erfaringer vi opparbeider oss gjennom vårt komitéarbeid. Vi vil på den måten prøve å oppnå at flere skal få nytte av det vi har lært. Et av målene våre er at alle i Webkom skal skrive minst én bloggpost i løpet av hvert skoleår.
 
 ## census [<span class="fa fa-github"></span>](https://github.com/webkom/census)
 census er et nytt prosjekt som gir oss en oversikt over serverne våre. Det lever på
 [census.abakus.no](http://census.abakus.no). Man kan lese mer om census og hvordan
 det fungerer i [bloggposten](http://webkom.abakus.no/census/) vi skrev da det ble
-lansert. Det er verdt å merke seg at alle abakus-medlemmer kan bruke census til å
+lansert. Det er verdt å merke seg at alle Abakus-medlemmer kan bruke census til å
 holde oversikt over sine maskiner.
 
 ## chewie [<span class="fa fa-github"></span>](https://github.com/webkom/chewie)
-chewie er det vi bruker til å produksjonssette prosjektene våre, og passer på at de alltid kjører en så ny versjon av koden som mulig. I tillegg til å gjøre dette automatisk har også chewie støtte for manuell produksjonssetting gjennom et webgrensesnitt. chewie kan du også lese mer om på den relevante bloggposten, [her](http://webkom.abakus.no/chewie/).
+chewie er det vi bruker til å produksjonssette prosjektene våre, og passer på at de alltid kjører siste versjon av koden. I tillegg til å gjøre dette automatisk har også chewie støtte for manuell produksjonssetting gjennom et web-grensesnitt. chewie kan du også lese mer om på [den relevante bloggposten](http://webkom.abakus.no/chewie).
 
 ## Abakus.no
 
 ### NERD
-Selv om Webkom alltid har som fokus å streve etter nye og interessante prosjekter er det viktig å vedlikeholde det man allerede har. I løpet av 2014/2015 har det blitt utført en rekke feilendringer på Abakus.no, hvorav mye går på sikkerhet i forhold til bedriftsdatabasesidene. Nye karrieresider har også blitt implementert, og disse vil fylles opp i løpet av det kommende året.
+Selv om Webkom alltid har som fokus å streve etter nye og interessante prosjekter er det viktig å vedlikeholde det man allerede har. I løpet av 2014/2015 har det blitt utført en rekke feilrettinger på Abakus.no, hvorav mye går på sikkerhet relatert til bedriftsdatabasesidene. Nye karrieresider har også blitt implementert, og disse vil fylles opp i løpet av det kommende året.
 
 ### Autentiserings-API
 Abakus.no har lenge hatt et API for å autentisere Abakus-medlemmer. API-et har blitt brukt av flere tjenester, blant annet Abacash, PRs bildearkiv, census og chewie. I år har vi jobbet for at det skal være enklere å sette opp nye tjenester som krever autentisering. Vi har derfor laget [django-abakus-auth](https://github.com/webkom/django-auth-abakus) og [passport-abakus](https://github.com/webkom/passport-abakus) til henholdsvis Django- og Node.js-prosjekter.
