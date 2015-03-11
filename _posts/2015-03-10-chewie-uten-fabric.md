@@ -6,17 +6,17 @@ author: relekang
 ---
 
 
-Da vi først lagde chewie brukte vi [fabric](http://www.fabfile.org/) til den
+Da vi først lagde chewie brukte vi [Fabric](http://www.fabfile.org/) til den
 delen av chewie som logger inn på serverne og oppdaterer prosjektene. Ettersom
-chewie er skrevet i Javascript med node.js og fabric er et python bibliotek så
-måtte vi bruke `child_process` i node for å kalle på fabric koden vår. Dette
+chewie er skrevet i JavaScript med Node.js, og Fabric er et Python-bibliotek,
+måtte vi bruke `child_process` i Node for å kalle på Fabric-koden vår. Dette
 var ikke en optimal situasjon, men et greit sted å starte siden vi tidligere har
-brukt fabric mye til å deploye manuelt.
+brukt Fabric mye til å deploye manuelt.
 
-Vi har nå byttet ut denne delen av chewie med noe som er skrevet i Javascript. Vi
-ønsket å bruke node-modulen [ssh2](https://github.com/mscdex/ssh2) til å koble til
-våre server over ssh. ssh2-modulen er event basert. Det vil si at man må sette opp
-event-lyttere for å kjøre kommandoer over en ssh-tilkobling. Nedenfor vises hvordan
+Vi har nå byttet ut denne delen av chewie med noe som er skrevet i JavaScript. Vi
+ønsket å bruke Node-modulen [ssh2](https://github.com/mscdex/ssh2) til å koble til
+våre servere over SSH2. ssh2-modulen er eventbasert. Det vil si at man må sette opp
+eventlyttere for å kjøre kommandoer over en SSH-tilkobling. Nedenfor vises hvordan
 man kunne kjørt kommandoen `date` over en tilkobling satt opp med ssh2.
 
 {% highlight javascript %}
@@ -34,13 +34,13 @@ conn.on('ready', function() {
 }).connect(options);
 {% endhighlight %}
 
-Når vi deployer så kjører vi flere kommandoer etter hverandre. Dette hadde ført
-til at vi måtte satt opp flere lyttere og håndtert nedkobling av koblingen i
-etterkant ikke `stream.on('close')`. Vi ønsket derfor en bedre løsning der vi
-kunne gi en liste med kommandoer og håndtere output med lyttere, men håndtere
-resultat med *callbacks* eller *promises*. Vi var mer positiv til promises enn
-callbacks siden vi allerede bruker promises der det er egnet i de fleste av våre
-Javascript prosjekter. Lurer du på hva promises er eller hvorfor vi bruker det
+Når vi deployer, så kjører vi flere kommandoer etter hverandre. Dette hadde allerede ført
+til at vi hadde måttet sette opp flere lyttere, og håndtere nedkoblingen av forbindelsen i
+etterkant, ikke i `stream.on('close')`. Vi ønsket derfor en bedre løsning, der vi
+ville kunne gi en liste med kommandoer og håndtere output med lyttere, men håndtere
+resultater med *callbacks* eller *promises*. Vi var mer positive til promises enn til
+callbacks, siden vi allerede bruker promises der det er egnet i de fleste av våre
+JavaScript-prosjekter. Lurer du på hva promises er eller hvorfor vi bruker det,
 kan du ta en titt på
 [denne artikkelen](http://spion.github.io/posts/why-i-am-switching-to-promises.html),
 eller overtale noen til å skrive en bloggpost om promises på denne bloggen. Vi
@@ -62,12 +62,12 @@ ssh
   });
 {% endhighlight %}
 
-Den store fordelen med å ha byttet ut fabric med promised-ssh er at vi har bedre
-muligheter til å håndtere feil på en god måte. I tillegg til at vi nå har droppet
-et språk som har ført til at vi ikke lenger trenger å bruke dobbelt opp med
-pakkebehandlere og test verktøy. Noe som gjør oppsett av prosjektet enklere.
+Den store fordelen med å ha byttet ut Fabric med promised-ssh, er at vi nå har bedre
+muligheter til å håndtere feil på en god måte. I tillegg har vi nå droppet
+et helt språk, slik at vi ikke lenger trenger å bruke dobbelt opp med
+pakkebehandlere og testverktøy, noe som gjør oppsettet av prosjektet enklere.
 
-Dersom du er interessert i hvordan vi har tatt i bruk promised-ssh kan du ta se
+Dersom du er interessert i hvordan vi har tatt i bruk promised-ssh kan du se
 på [Deployment](https://github.com/webkom/chewie/blob/master/src/Deployment.js)-objektet.
 Det kan brukes så enkelt som i koden nedenfor.
 
