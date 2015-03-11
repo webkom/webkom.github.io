@@ -6,7 +6,7 @@ author: relekang
 ---
 
 
-Da vi først lagde chewie brukte vi [Fabric](http://www.fabfile.org/) til den
+Da vi først lagde chewie, brukte vi [Fabric](http://www.fabfile.org/) til den
 delen av chewie som logger inn på serverne og oppdaterer prosjektene. Ettersom
 chewie er skrevet i JavaScript med Node.js, og Fabric er et Python-bibliotek,
 måtte vi bruke `child_process` i Node for å kalle på Fabric-koden vår. Dette
