@@ -14,10 +14,10 @@ var ikke en optimal situasjon, men et greit sted å starte siden vi tidligere ha
 brukt Fabric mye til å deploye manuelt.
 
 Vi har nå byttet ut denne delen av chewie med noe som er skrevet i JavaScript. Vi
-ønsket å bruke Node-modulen [SSH2](https://github.com/mscdex/ssh2) til å koble til
-våre servere over SSH2. SSH2-modulen er eventbasert. Det vil si at man må sette opp
+ønsket å bruke Node-modulen [ssh2](https://github.com/mscdex/ssh2) til å koble til
+våre servere over SSH. ssh2-modulen er eventbasert. Det vil si at man må sette opp
 eventlyttere for å kjøre kommandoer over en SSH-tilkobling. Nedenfor vises hvordan
-man kunne kjørt kommandoen `date` over en tilkobling satt opp med SSH2.
+man kunne kjørt kommandoen `date` over en tilkobling satt opp med ssh2.
 
 {% highlight javascript %}
 var conn = new Client();
@@ -45,7 +45,7 @@ kan du ta en titt på
 [denne artikkelen](http://spion.github.io/posts/why-i-am-switching-to-promises.html),
 eller overtale noen til å skrive en bloggpost om promises på denne bloggen. Vi
 lagde derfor [promised-ssh](https://github.com/relekang/promised-ssh) som en
-promise-abstraksjon av SSH2. Denne pakken gjør at vi kan kjøre, for eksempel, `date` på en server
+promise-abstraksjon av ssh2. Denne pakken gjør at vi kan kjøre, for eksempel, `date` på en server
 med koden nedenfor.
 
 {% highlight javascript %}
