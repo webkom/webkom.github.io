@@ -7,13 +7,13 @@ author: edvardvb
 
 For knappe to måneder siden annonserte vi vår store 404-konkurranse, hvor vi lot hobby-entusiaster, ambisiøse game 
 devs og den jevne abakule konkurrere om et ettertraktet V.I.P. medlemsskap på Downtown. Konkurransen ble avsluttet
-ved utgangen av februar, og nå har vi etter lang tids diskusjon klart å velge en vinner.
+ved utgangen av februar, og vi har nå etter en lang diskusjon klart å velge en vinner.
 
-Selv om det bare er én vinner vil vi nå ha hele *to* 404-spill på [abakus.no](http://www.abakus.no), slik at du får
-et tilfeldig spill hver gang du får en 404-error (forhåpentligvis skjer ikke det så ofte). Her får du en kort 
-oppsummering av de to spillene, og en begrunnelse på hvorfor vi mener vinneren fortjente seieren:
+Selv om det bare er én vinner vil vi nå ha hele *tre* 404-spill på [abakus.no](http://www.abakus.no), altså to nye i tillegg
+til det gamle 404-spillet, slik at du får et tilfeldig spill hver gang du får en 404-error (forhåpentligvis skjer ikke det så
+ofte). Her får du en kort oppsummering av de to nye spillene, og en begrunnelse på hvorfor vi mener vinneren fortjente seieren:
 
-##2. plass - The Floor is Lava
+##2. plass - The Floor is Lava - Audun Liberg
 
 [![The Floor is Lava] (/images/posts/2015-03-18-lava.png)]
 (https://rawgit.com/Vardark/404-competition/master/entries/audunlib/index.html)
@@ -23,7 +23,7 @@ hvor man styrer en figur som såklart skal holde seg unna lavaen, samtidig som d
 Figuren kan samle ammunisjon som den kan skyte på fiendene. Noen av nivåene er til og med dynamiske, slik at man 
 ikke kan stå på samme sted for lenge. Ønsker du å teste spillet kan du klikke på bildet ovenfor.
 
-##1. plass - Survive
+##1. plass - Survive - Mats Byrkjeland
 
 [![Winner] (/images/posts/2015-03-18-winrar.png)]
 (https://rawgit.com/draperunner/404-competition/master/entries/matsby/dist/matsby.html)
