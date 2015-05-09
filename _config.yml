@@ -1,5 +1,5 @@
 name: webkom
-permalink: /:title
+permalink: /:title/
 highlighter: pygments
 lsi: false
 exclude:
