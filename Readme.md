@@ -1,6 +1,12 @@
 # webkom.github.io
 
-> Utviklerbloggen vår på [webkom.abakus.no](http://webkom.abakus.no)
+> Utviklerbloggen vår på [webkom.dev](http://webkom.dev)
+
+```bash
+docker-compose up -d
+```
+
+Or if you have ruby installed:
 
 ```bash
 $ gem install jekyll
