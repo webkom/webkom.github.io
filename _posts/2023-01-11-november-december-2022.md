@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ukentlig e-post, arrangementstatistikk og Typescript (November og Desember 2022)
+title: Ukesmail, arrangementstatistikk og Typescript (nov. og des. 2022)
 author: eikhr
 ---
 
