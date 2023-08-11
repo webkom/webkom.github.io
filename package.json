@@ -8,6 +8,7 @@
     "preview": "astro preview",
     "types": "astro check && tsc --noEmit",
     "prettier": "prettier --write . --plugin=prettier-plugin-astro",
+    "prettier:check": "prettier --check . --plugin=prettier-plugin-astro",
     "lint": "eslint --ext .js,.astro src"
   },
   "dependencies": {
