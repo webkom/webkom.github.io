@@ -1,0 +1,20 @@
+---
+import type { CollectionEntry } from "astro:content";
+interface Props {
+  post: CollectionEntry<"blog">;
+}
+
+const { post } = Astro.props as Props;
+
+const { body } = post;
+
+const cleaned = body
+  .replace(/\|.*\|/gm, "") // remove tables
+  .replace(/[#*]+.*$/gm, "") // remove markdown headings
+  .replace(/\[([^\]]+)\]\([^\)]+\)/gm, "$1") // replace markdown links with link text
+  .replace(/<[^>]*>?/gm, ""); // remove html tags
+
+const excerpt = cleaned.split(/\s/).slice(0, 60).join(" ") + "...";
+---
+
+<p>{excerpt}</p>
