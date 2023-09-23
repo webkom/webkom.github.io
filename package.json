@@ -1,0 +1,30 @@
+{
+  "name": "astroblog",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "types": "astro check && tsc --noEmit",
+    "prettier": "prettier --write . --plugin=prettier-plugin-astro",
+    "prettier:check": "prettier --check . --plugin=prettier-plugin-astro",
+    "lint": "eslint --ext .js,.astro src"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^0.19.7",
+    "@astrojs/rss": "^2.4.4",
+    "@astrojs/sitemap": "^2.0.1",
+    "astro": "^2.10.7"
+  },
+  "devDependencies": {
+    "@types/marked": "^5.0.1",
+    "@typescript-eslint/eslint-plugin": "^6.3.0",
+    "@typescript-eslint/parser": "^6.3.0",
+    "eslint": "^8.47.0",
+    "eslint-plugin-astro": "^0.28.0",
+    "prettier": "^3.0.1",
+    "prettier-plugin-astro": "^0.11.0",
+    "typescript": "^5.1.6"
+  }
+}
