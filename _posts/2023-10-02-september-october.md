@@ -4,22 +4,7 @@ title: September og Oktober 2023
 author: Bestem0r
 ---
 
-# Ting 1
-
-## Diverse screenshots
-Du kan nå lenke til GitHub og LinkedIn-profilen din!
-
-![github-linkedin-profile](/images/posts/2023-08-31-brukerinfo.png)
-
-Søkemenyen ser nå nicere ut:
-
-| Før | Etter |
-|![before](/images/posts/2023-08-31-search0.png) | ![after](/images/posts/2023-08-31-search1.png) |
-
-Vi har også forbedret designet til litt av hvert. For eksempel dette:
-
-| Før | Etter |
-|![before](https://user-images.githubusercontent.com/69514187/258660677-2a0b58f3-3784-46d1-915b-d780ec4a78a5.png)|![after](https://user-images.githubusercontent.com/69514187/258660435-9777ed07-cd46-40ef-bb01-d210a7bee7cc.png)|
+Hei alle saman og velkommen til mitt første blogginnlegg som ny bloggansvarlig i Webkom! Det er med stor ære glede at eg kan presentere kva me i Webkom har jobba med i september og oktober.
 
 ## Endringslogg for August 2023
 
