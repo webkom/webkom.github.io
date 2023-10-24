@@ -2,7 +2,7 @@
 # SASS
 ---
 
-@import url("http://fonts.googleapis.com/css?family=Roboto:400,100,300,700");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap");
 @import url("/css/pygments.css");
 html,
 body,
@@ -107,7 +107,7 @@ html {
   background: #dedede;
 }
 body {
-  font-family: Roboto, "Helvetica Neue", serif;
+  font-family: "Fira Code", "Helvetica Neue", serif;
   line-height: 2;
   color: #444;
   font-size: 16px;
