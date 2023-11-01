@@ -9,7 +9,7 @@ Som ny bloggansvarleg er det derfor med stor ære og glede at eg no kan presente
 
 Men før me går i gong, har du kanskje merka at noko er litt utanom det vanlege? Noko som skurrar litt når du les desse orda? Det stemmer! Dette og kommande innlegg kjem nemleg til å bli skrivne på det vakre landsmålet vårt, nynorsk! 🇳🇴
 
-Det har seg nemleg slik at etter ei rask undersøking, har eg fått inntrykk av at det er forsvinnande lite nynorsk nytta på abakus sine sider. Så får å bidra til å rette på dette har eg bestemt meg for å skrive utviklarbloggen på nynorsk! 🤓 (Skriv gjerne ein kommentar om du er ueinig i dette valget, så kan me ta ein diskusjon om det!)
+Det har seg nemleg slik at etter ei rask undersøking, har eg fått inntrykk av at det er forsvinnande lite nynorsk nytta på abakus sine sider. Så for å bidra til å rette på dette har eg bestemt meg for å skrive utviklarbloggen på nynorsk! 🤓 (Skriv gjerne ein kommentar om du er ueinig i dette valget, så kan me ta ein diskusjon om det!)
 
 Nok målprat, la oss gå i gang med å sjå på kva me har fått til dei siste to månadane!
 
