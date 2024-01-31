@@ -1,12 +1,52 @@
 ---
 layout: post
-title: Desember 2023, Januar 2024
+title: Desember 2023, januar 2024
 author: Bestem0r
 ---
 
 Trudde du kanskje det var over og ut for utviklarbloggen då me ikkje kom med ein utgåve i desember? 🤔 Frykt ikkje! Etter ein lang juleferie er me nemleg tilbake med ei dobbeltutgåve av utviklarbloggen! 🎉 I denne utgåva kan du lese om alt me har jobba med i desember og januar! 🥳
 
-# Endringslogg for desember 2023 og januar 2024
+# Konfetti når ein opprettar ein brukar
+
+For å feire nye abakule, har me no lagt til konfetti når ein opprettar ein brukar! 🎊 Litt ekstra stas altså! 🥳
+
+![Konfetti](/images/posts/2024-02-01-konfetti.png)
+
+# Grupper i sidemenyen
+
+Endeleg kan du sjå alle abakus sine grupper i sidemenyen! 🤩 Dette inkluderer både styrer, grupper og komitear!
+
+| Før                                                                                                           | Etter                                                                                                           |
+|---------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| ![Før](https://user-images.githubusercontent.com/13599770/297894667-1e4d07d0-5d17-40b8-8202-898adeaad0e9.png) | ![Etter](https://user-images.githubusercontent.com/13599770/297894715-7d6ed3c3-157a-44de-b5bc-7aa8bca95072.png) |
+
+
+# Ny funksjonalitet i opptak
+
+I løpet av desember og januar har me jobba med å legge til litt ny funksjonalitet i opptak. Dette inkluderer blant anna eksportinnstillingar og sletting av opptak. 📝
+
+![Eksportinnstillingar](https://user-images.githubusercontent.com/13599770/296137718-82f5bdd4-e2d3-473b-b3f1-c39f0a28bff8.png)
+![Sletting av opptak](https://user-images.githubusercontent.com/13599770/294839147-2c1046ad-1bd3-46a3-a3d1-31965a862cfc.png)
+
+# Forbetra design på interessegruppesida
+
+Me har også nyleg gjennomført ei stor forbetring av designet på interessegruppesida! 🎨 Sjå kor fint det har blitt! 🤩
+
+| Før                                                      | Etter                                                     |
+|----------------------------------------------------------|-----------------------------------------------------------|
+| ![Før 1](/images/posts/2024-02-01-interest-before-1.png) | ![Etter 1](/images/posts/2024-02-01-interest-after-1.png) |
+| ![Før 2](/images/posts/2024-02-01-interest-before-2.png) | ![Etter 2](/images/posts/2024-02-01-interest-after-2.png) |
+
+# Forbetra design på bedriftsdatabasen
+
+Ikkje berre er interregruppesida forbetra, me har nemleg også pynta litt på designet til bedriftsdatabasen! Og det var jammen på tide... 🤭
+
+| Før | Etter |
+|-----|-------|
+| ![Før](https://user-images.githubusercontent.com/69514187/294971206-f400de3a-c444-43e0-a45e-33d661a230d8.png) | ![Etter](https://user-images.githubusercontent.com/69514187/294971151-7f376e9f-ce8f-4a00-a042-de0fabeec3fa.png) |
+
+<br>
+# Fullstendig endringslogg for desember 2023 og januar 2024
 
 - 🚀 - Ny funksjonalitet
 - ✨ - Forbedret funksjonalitet
