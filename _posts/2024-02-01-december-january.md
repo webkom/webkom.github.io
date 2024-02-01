@@ -12,14 +12,6 @@ For å feire nye abakule, har me no lagt til konfetti når ein opprettar ein bru
 
 ![Konfetti](/images/posts/2024-02-01-konfetti.png)
 
-# Grupper i sidemenyen
-
-Endeleg kan du sjå alle abakus sine grupper i sidemenyen! 🤩 Dette inkluderer både styrer, grupper og komitear!
-
-| Før                                                                                                           | Etter                                                                                                           |
-|---------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| ![Før](https://user-images.githubusercontent.com/13599770/297894667-1e4d07d0-5d17-40b8-8202-898adeaad0e9.png) | ![Etter](https://user-images.githubusercontent.com/13599770/297894715-7d6ed3c3-157a-44de-b5bc-7aa8bca95072.png) |
-
 
 # Ny funksjonalitet i opptak
 
