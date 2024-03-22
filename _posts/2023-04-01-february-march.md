@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mars og Februar 2023
-author: haukkagu
+author: falbru
 ---
 
 Velkommen tilbake til enda et innlegg på utviklerbloggen! Du lurer kanskje på hva Webkom har gjort de siste to månedene bortsett fra å sende 100+ ukesmail til hver enkelt abakule? Les videre for å finne ut av akkurat hva vi har jobbet med i februar og mars!
