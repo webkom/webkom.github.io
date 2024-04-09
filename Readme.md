@@ -1,6 +1,6 @@
 # webkom.github.io
 
-> Utviklerbloggen vår på [webkom.dev](http://webkom.dev)
+> Utviklarbloggen vår på [webkom.dev](http://webkom.dev)
 
 ```bash
 docker-compose up -d
