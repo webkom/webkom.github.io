@@ -85,12 +85,26 @@ table {
   border-spacing: 0;
   vertical-align: middle;
 }
+tr:nth-child(2n) {
+  background: #f8f8f8;
+}
+tbody:first-child {
+  td {
+    text-align: center;
+  }
+}
+th {
+  text-align: center;
+}
 caption,
 th,
 td {
-  text-align: left;
   font-weight: normal;
   vertical-align: middle;
+}
+td,
+caption {
+  text-align: left;
 }
 a img {
   border: none;
