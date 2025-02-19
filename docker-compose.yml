@@ -1,10 +1,9 @@
 ---
-version: "3.4"
-
 services:
 
   jekyll:
     image: jekyll/jekyll
+    platform: linux/amd64
     volumes:
       - .:/srv/jekyll:Z
     command: bash -c ' gem install webrick && jekyll serve --watch --force-polling'
