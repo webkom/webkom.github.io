@@ -196,3 +196,6 @@ No er det endeleg enkelt å sjå kven som har gløymt å markera at dei skal ha 
 - 🐛 **Fikset taggtekst** på tba-arrangement ([lego-webapp#5288](https://github.com/webkom/lego-webapp/pull/5288))
 - 🐛 **Fiksa css** for eventType navn ([lego-webapp#5281](https://github.com/webkom/lego-webapp/pull/5281))
 - 🐛 **Fiksa cypress stripe** tester ([lego-webapp#5300](https://github.com/webkom/lego-webapp/pull/5300))
+
+
+![Yuletide](/images/posts/000-222.png){:height="50px"}
