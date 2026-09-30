@@ -22,6 +22,7 @@ I tillegg til nye achievements finst det no ein [oversikt](https://abakus.no/ach
 ## Betre arrangement-side
 
 På arrengementsida er det mykje herleg ny snacks! Det er nye labels under arrangementa for betre oversikt, lagt til moglegheit for filtrering på periode og påmeldingstype og lagt til moglegheit for å sjå tidlegare arrangement utan å gå til kalenderen. Gå og test alle dei nye filterene og fjern dei deretter med den splitter nye fjern-filtar knappen!
+
 ![Better eventpage](/images/posts/2025-17-02-better-eventpage.png)
 
 

@@ -2,7 +2,7 @@
 # SASS
 ---
 
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;700&display=swap");
 @import url("/css/pygments.css");
 html,
 body,
@@ -75,6 +75,8 @@ body {
   line-height: 1;
   color: #000;
   background: #fff;
+
+  --lego-red-color: #e21617;
 }
 ol,
 ul {
@@ -117,8 +119,7 @@ a img {
   text-rendering: optimizelegibility;
 }
 html {
-  border-top: 10px dotted #bbb;
-  background: #dedede;
+  border-top: 10px dotted #fee;
 }
 body {
   font-family: "Fira Code", "Helvetica Neue", serif;
@@ -151,10 +152,7 @@ body > header {
 }
 body > section {
   background: #fff;
-  padding: 60px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  border-top: 3px solid #ccc;
+  padding: 0 60px;
 }
 body > section img {
   max-width: 100%;
@@ -165,15 +163,20 @@ footer {
   text-align: right;
 }
 a {
-  color: #b11b11;
+  color: var(--lego-red-color);
 }
 a:hover {
   color: #000;
 }
 
 article {
-  margin-bottom: 60px;
-
+  margin-bottom: 30px;
+  header {
+      padding: 10px 0;
+      h1 {
+          font-weight: 400;
+      }
+  }
   h1 {
     font-size: 28px;
     font-weight: 300;
@@ -185,7 +188,7 @@ article {
   }
 
   h1 a:hover {
-    color: #b11b11;
+      color: var(--lego-red-color);
   }
 
   h2 {
@@ -195,10 +198,15 @@ article {
   h3 {
     font-weight: 700;
   }
-}
 
-article > p {
-  margin-bottom: 15px;
+  p:has(> img) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-end;
+      gap: 1rem;
+      margin: 20px 0;
+  }
 }
 
 .author {
@@ -206,23 +214,29 @@ article > p {
   font-weight: 700;
   font-family: Menlo, monospace;
   color: #999;
-  text-align: right;
-  margin-bottom: 20px;
-  margin-top: -20px;
+  padding: 10px 0;
 }
 
 .read-more {
-  background: #d3dfe5;
   color: #fff;
-  padding: 2px 12px;
   text-decoration: none;
-  border-radius: 6px;
   display: inline-block;
   text-transform: uppercase;
-  color: #222;
+  color: #444;
   font-size: 14px;
+  margin: 20px 0;
+  font-weight: 500;
+  text-decoration: underline transparent 2px;
+  text-underline-offset: 2px;
+
+  &:hover {
+      text-decoration-color: #444;
+  }
 }
 
+table {
+    margin: 0 auto;
+}
 hr {
   border: 0;
 }
